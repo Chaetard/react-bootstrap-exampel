@@ -4,6 +4,7 @@ import ap1 from '../assets/ap1.jpg'
 import cu from '../assets/cu.jpg'
 import foca from '../assets/foca.jpg'
 import morra from '../assets/morra.jpg'
+import "./cards.css"
 
 const cards = [{
   id: 1, 
@@ -37,7 +38,7 @@ text:'algun dia la acabare'
 
 function Cards() {
   return (
-    <div className="container d-flex justify-content-center align-items-center h-100 ">
+    <div className="container d-flex justify-content-center align-items-center h-100 mx-auto b-2">
       <div className="row">
         {
           cards.map(card => (
