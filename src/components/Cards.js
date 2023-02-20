@@ -36,14 +36,15 @@ text:'algun dia la acabare'
 
 }];
 
-function Cards() {
+function Cards() { 
   return (
     <div className="container d-flex justify-content-center align-items-center h-100 mx-auto b-2">
       <div className="row">
         {
           cards.map(card => (
-            <div className="col-md-3 " key={card.id}>
+            <div className="col-lg-3 col-md-6 m" key={card.id}>
             <Card title={card.title} imageSource={card.image} url={card.url} btntext={card.btntext} text={card.text}/>
+        
           </div>  
           ))
         }
