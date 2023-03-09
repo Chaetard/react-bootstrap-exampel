@@ -1,5 +1,9 @@
+
 .card:hover {
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.573) !important;
+   
+    border-radius: 40px;
+
     transition: all 0.4s linear;
 }
 
@@ -10,9 +14,14 @@
 
 .card-text{
     padding: 0.3rem 1rem !important;
+    text-align: justify;
+   
 }
 .card{
     border: none !important;
+    
+    margin: 5px;
+    transition: all 0.90s linear;
 }
 .overflow1{
     overflow: hidden;
@@ -20,6 +29,7 @@
 
 .card-img-top{
     transition: all 0.2s ease-in-out;
+    
 }
 
 .card-img-top:hover{

@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./cards.css";
+import ola from "../assets/ola.png"
 
 
 function Card({ title, imageSource, url, btntext, text }) {
   return (
     <div className="card text-center bg-dark animate__animated animate__fadeInUp ">
       <div className="overflow1">
-        <a href={url} target="_blank" ><img src={imageSource} alt="logo" className="card-img-top" /></a>
+        <a href={url} target="_blank" without rel="noreferrer" ><img src={imageSource ? imageSource: ola} alt="logo" className="card-img-top" /></a>
       </div>
       <div className="card-body text-light">
         <h4 className="card-title">

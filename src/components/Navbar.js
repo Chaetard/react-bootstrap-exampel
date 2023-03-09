@@ -52,11 +52,7 @@ function navbar() {
 
         
 
-        <form class="d-flex">
-          <button class="btn btn-outline-warning d-none d-md-inline-block" type="submit">
-            Informacion
-          </button>
-        </form>
+        
       </div>
     </div>
   </nav>

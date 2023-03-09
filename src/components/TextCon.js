@@ -1,16 +1,53 @@
 import React from 'react'
 import Card from './Card'
+import rammus from '../assets/rammus.png'
+import land from "../assets/land.jpg"
 
-
+const cards = [{
+  id: 1, 
+  image: rammus,
+  title:'Bienvenida Rammus Like',
+  url: '#',
+  btntext: 'Idk',
+  text:'Soy un intento de Trainner ya que ni a Junior llego, eso ? para nada es malo, cada dia intento ponerme retos y estoy en la busqueda de mejorar. que es un mal portafolio? y quien dijo que intento que sea bueno, lo sera, pero esto es solo el inicio , tengo 20 años y me gusta aprender, de poco a poquis pero asi tiene que ser'
+}]
+const cards2 = [{
+  id: 1, 
+  image: land,
+  title:'En realidad no tengo Mucho que decir',
+  url: '#',
+  btntext: 'Idk',
+  text:'Hago mimimi por aqui y por aya'
+}]
 function TextCon() {
   return (
     <div className="container d-flex justify-content-center align-items-center h-100 ">
       <div className="row">
         <div className='col-md-4'>
-            <Card/>
+        {cards.map((card) => (
+          <div className="col-lg-12 col-md-6 m" key={card.id}>
+            <Card
+              title={card.title}
+              imageSource={card.image}
+              url={card.url}
+              btntext={card.btntext}
+              text={card.text}
+            />
+          </div>
+        ))}
         </div>
         <div className='col-md-8'>
-            <Card/>
+        {cards2.map((card) => (
+          <div className="col-lg-12 col-md-6 m" key={card.id='2'}>
+            <Card
+              title={card.title}
+              imageSource={card.image}
+              url={card.url}
+              btntext={card.btntext}
+              text={card.text}
+            />
+          </div>
+        ))}
         </div>
       </div>
     </div>
