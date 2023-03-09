@@ -8,7 +8,7 @@ const cards = [{
   image: rammus,
   title:'Bienvenida Rammus Like',
   url: '#',
-  btntext: 'Idk',
+  btntext: 'LLeva al mismo luagr laik',
   text:'Soy un intento de Trainner ya que ni a Junior llego, eso ? para nada es malo, cada dia intento ponerme retos y estoy en la busqueda de mejorar. que es un mal portafolio? y quien dijo que intento que sea bueno, lo sera, pero esto es solo el inicio , tengo 20 años y me gusta aprender, de poco a poquis pero asi tiene que ser'
 }]
 const cards2 = [{
@@ -16,8 +16,8 @@ const cards2 = [{
   image: land,
   title:'En realidad no tengo Mucho que decir',
   url: '#',
-  btntext: 'Idk',
-  text:'Hago mimimi por aqui y por aya'
+  btntext: 'Lleva al mismo lugar',
+  text:'Hago mimimi por aqui y por aya, en fin esta pagina es solo de apoyo las tecnologias que eh utiliado varian pero las principales son el uso de API (Esta la mas reciente), react (entendiendolo mas que nada), bootstrap, y los clasicos css, html y javascript. Igual utilizadon formatos para el manejo de los props como el json, fuentes por google fonts y la neta las imgs me las saque de internet, no busco empleo solo gente con la cual unirme a una comunidad de programadores y desarroladores, me gustaria vivir de esto ajsjgdjassdass y fin, si te di lastima como programador contactame y hasme el paro, nose recomiendame cosas o yoquese, lo que quiero es seguir aprendiendo para algun dia tener un portafolio decente, hasta aqui mi informe Rogelio'
 }]
 function TextCon() {
   return (

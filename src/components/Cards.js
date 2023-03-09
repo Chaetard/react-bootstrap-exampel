@@ -5,6 +5,7 @@ import cu from "../assets/cu.jpg";
 import morra from "../assets/morra.jpg";
 import "./cards.css";
 
+
 const cards = [
   {
     id: 1,
@@ -19,7 +20,7 @@ const cards = [
     image: cu,
     url: "http://jesus2023adw.atspace.cc/",
     btntext: "pagina para web",
-    text: "pagina echa para pasar la pinche escuela gei",
+    text: "pagina echa para pasar la pinche escuela gei casi no me enseñean de lo que quiero, esa wea no me detiene pero a la vez es buena ya que me ah enseñado las buenas practicas",
   },
   {
     id: 3,
@@ -33,6 +34,7 @@ const cards = [
 
 function Cards() {
   return (
+    
     <div className="container d-flex justify-content-center align-items-center h-100 mx-auto b-2">
       <div className="row">
         {cards.map((card) => (
@@ -47,8 +49,11 @@ function Cards() {
           </div>
         ))}
       </div>
+      
     </div>
+     
   );
+ 
 }
 
 export default Cards;
