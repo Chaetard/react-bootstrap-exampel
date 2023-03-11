@@ -38,7 +38,7 @@ function Cards() {
     <div className="container d-flex justify-content-center align-items-center h-100 mx-auto b-2">
       <div className="row">
         {cards.map((card) => (
-          <div className="col-lg-4 col-md-6 m" key={card.id}>
+          <div className="col-lg-4 col-md-12 col-sm-12 " key={card.id}>
             <Card
               title={card.title}
               imageSource={card.image}

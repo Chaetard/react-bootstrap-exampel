@@ -2,6 +2,8 @@ import React from 'react'
 import Card from './Card'
 import rammus from '../assets/rammus.png'
 import land from "../assets/land.jpg"
+import './navbar.css'
+
 
 const cards = [{
   id: 1, 
@@ -22,10 +24,10 @@ const cards2 = [{
 function TextCon() {
   return (
     <div className="container d-flex justify-content-center align-items-center h-100 ">
-      <div className="row">
+      <div className="row ">
         <div className='col-md-4'>
         {cards.map((card) => (
-          <div className="col-lg-12 col-md-6 m" key={card.id}>
+          <div className="col-lg-12 col-md-12 col-sm-8 m" key={card.id}>
             <Card
               title={card.title}
               imageSource={card.image}

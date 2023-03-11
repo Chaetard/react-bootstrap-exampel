@@ -1,0 +1,28 @@
+.elchiste{
+    background-color: brown;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: cursive;
+    
+}
+.btnc{
+    font-size: 35px !important ;
+    position: relative !important;
+    display: inline-block !important;
+
+}
+.btnc:hover{
+background-color: red !important;
+}
+.btnc:hover::before{
+    content: "Aguas no controlo las frases"; /* agrega el contenido del tooltip */
+    position: absolute; /* establece la posición del tooltip como absoluta */
+    top: -110px; /* establece la posición vertical del tooltip */
+    left: 50%; /* establece la posición horizontal del tooltip */
+    transform: translateX(-50%); /* centra el tooltip horizontalmente */
+    padding: 6px 10px; /* agrega un relleno interno al tooltip */
+    background-color: #333; /* establece el color de fondo del tooltip */
+    color: #fff; /* establece el color de texto del tooltip */
+    font-size: 14px; /* establece el tamaño de fuente del tooltip */
+    border-radius: 3px; /* establece el radio de borde del tooltip */
+}

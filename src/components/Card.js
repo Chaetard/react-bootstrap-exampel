@@ -15,19 +15,19 @@ function Card({ title, imageSource, url, btntext, text }) {
           {title ? title : "aweonao conchesumadre olvido el titulo"}
         </h4>
         <p className="card-text text-secondary">
-          {" "}
+         
           {text
             ? text
             : "Esta wea fue echa gracias a un video de Fast code, fue un copy past visual y funcional pero messiver para entender el funcionamiento de react, TY FAST WEB"}
         </p>
         <a
-          href={url}
+          href={url ? url: '#' }
           className="btn btn-outline-secondary rounded-0"
           target="_blank"
           without
           rel="noreferrer"
         >
-          {btntext}
+          {btntext ? btntext:'aweonado olvido programar' }
         </a>
       </div>
     </div>

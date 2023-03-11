@@ -1,1 +1,9 @@
-
+.Navbar {
+  
+  backdrop-filter: blur(10px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.elpd{
+    margin-top: 60px;
+}

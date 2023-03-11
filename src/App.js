@@ -5,26 +5,25 @@ import Navbar from "./components/Navbar";
 import "./components/navbar.css";
 import TextCon from "./components/TextCon";
 import WeatherWidget from "./components/WeatherWidget";
-import Pokemon from "./components/Pokemon";
+import MyGallery from "./components/MyGallery";
 import TwitchEmbedVideo from "react-twitch-embed-video";
+import Jokes from "./components/Jokes";
+import Voidma from "./components/Voidma";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <TextCon />
+      
+      <Navbar/>
+      <Voidma/>
+      <TextCon/>
       <Cards />
 
-      <div className="d-flex justify-content-center align-items-center">
-        <div className="col-lg-8 col-md-8 col-sm-8 col-xs-1 ">
+      <div className="container justify-content-center align-items-center">
+        <div className="col-lg-8 col-md-12 mx-auto">
           <WeatherWidget />
-          <TwitchEmbedVideo
-          channel='mcj_mcj'
-          width='1080'
-          height='640'
-          hideChat='true'
-          hideControls='true'
-            />
+          <Jokes />
+          
         </div>
       </div>
 
@@ -34,3 +33,11 @@ function App() {
 }
 
 export default App;
+/*
+<TwitchEmbedVideo
+channel='mcj_mcj'
+width='1080'
+height='640'
+hideChat='true'
+hideControls='true'/>
+*/
